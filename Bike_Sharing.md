@@ -24,11 +24,6 @@ Q4_2019 <- read.csv(here("data","Divvy_Trips_2019_Q4.csv.gz"))
 NOTE: Dataset is too large therefore uploading a compressed file \##
 Preview data
 
-``` r
-print("column names Q1")
-```
-
-    ## [1] "column names Q1"
 
 ``` r
 colnames(Q1_2019)
@@ -38,12 +33,6 @@ colnames(Q1_2019)
     ##  [4] "bikeid"            "tripduration"      "from_station_id"  
     ##  [7] "from_station_name" "to_station_id"     "to_station_name"  
     ## [10] "usertype"          "gender"            "birthyear"
-
-``` r
-print("column names Q2")
-```
-
-    ## [1] "column names Q2"
 
 ``` r
 colnames(Q2_2019)
@@ -63,12 +52,6 @@ colnames(Q2_2019)
     ## [12] "X05...Member.Details.Member.Birthday.Year"
 
 ``` r
-print("column names Q3")
-```
-
-    ## [1] "column names Q3"
-
-``` r
 colnames(Q3_2019)
 ```
 
@@ -76,12 +59,6 @@ colnames(Q3_2019)
     ##  [4] "bikeid"            "tripduration"      "from_station_id"  
     ##  [7] "from_station_name" "to_station_id"     "to_station_name"  
     ## [10] "usertype"          "gender"            "birthyear"
-
-``` r
-print("column names Q4")
-```
-
-    ## [1] "column names Q4"
 
 ``` r
 colnames(Q4_2019)
