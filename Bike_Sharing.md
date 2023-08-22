@@ -276,8 +276,9 @@ ggplot(data = data_2019) +
   geom_bar(mapping=aes(x= factor (day,days_of_the_week),fill= usertype), width=.5, position = "dodge")+ labs(title="Bike Usage Trend over the week", x= "Day of Week", y= "Number of Rides", subtitle = "2019") + scale_y_continuous(labels = scales::comma)
 ```
 
-![](Bike_Sharing_files/figure-gfm/unnamed-chunk-12-1.png)<!-- --> Avg
-bike rental duration trend over the week
+![](https://github.com/charlenelow/Bike-Sharing-using-R-programming-/blob/main/figures/Bike%20Usage%20Trend%20over%20the%20Week.png?raw=true)<!-- --> 
+
+Avg bike rental duration trend over the week
 
 ``` r
 data_2019 %>% 
@@ -293,8 +294,10 @@ data_2019 %>%
     ## Don't know how to automatically pick scale for object of type <difftime>.
     ## Defaulting to continuous.
 
-![](Bike_Sharing_files/figure-gfm/unnamed-chunk-13-1.png)<!-- --> \##
-Insights Based on the Bike usage bar chart, it shows that the usage
+![](https://github.com/charlenelow/Bike-Sharing-using-R-programming-/blob/main/figures/Avgerage%20Ride%20Duration%20Trend%20over%20the%20week.png?raw=true)<!-- -->
+
+## Insights 
+Based on the Bike usage bar chart, it shows that the usage
 trend for Customers is opposite that of Subscribers where we are seeing
 higher usage on weekends for Customers and weekdays for Subscribers.
 
@@ -307,12 +310,13 @@ trip regardless which day of the week.
 
 To increase revenue of the bike rental service, management can look into
 ways to attract new customers by having promotional bundle for longer
-trips such as: 1. Full day ride pass on weekends for a fixed price. 2.
-Half day ride pass for a fixed price.
+trips such as: 
+1. Full day ride pass on weekends for a fixed price.
+2. Half day ride pass for a fixed price.
 
 Additional promotions for weekday bundle to attract more customers to
-use the rental service on weekdays: 1. Ride for 40 mins and get an
-additional 20 mins for free
+use the rental service on weekdays: 
+1. Ride for 40 mins and get an additional 20 mins for free
 
 Since most subscribers uses the bike rental for short trips (\< 20
 mins), they are most likely using it as a mode of transport to get from
