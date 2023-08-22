@@ -16,6 +16,8 @@ You are a junior data analyst working in the marketing analyst team at Cyclistic
 # The Data
 You will use Cyclistic’s historical trip data to analyze and identify trends. [Download the 2019 of Cyclistic trip data here](https://divvy-tripdata.s3.amazonaws.com/index.html). (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions.)
 
+# Analysis
+Refer to [Github document](https://github.com/charlenelow/Bike-Sharing-using-R-programming-/blob/main/Bike_Sharing.md) to follow along my analysis.
 
 Please reach out to me to give me any feedback and comments you have regarding my work!!
 Email Address: charlenelowfy@gmail.com
