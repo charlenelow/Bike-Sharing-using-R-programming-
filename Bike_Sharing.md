@@ -168,7 +168,7 @@ data_2019 <- data_2019 %>%
 Create a new column to show day of week of bike rental
 
 ``` r
-data_2019$day = strftime(data_2019$start_time,'%a') #%A means full weekday name
+data_2019$day = strftime(data_2019$start_time,'%a') #%a means short form of week name
 ```
 
 ## Descriptive Analysis
